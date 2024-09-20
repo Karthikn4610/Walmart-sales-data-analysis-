@@ -1,4 +1,4 @@
-![Sample Image](https://depositphotos.com/editorial/mishawaka-circa-august-2018-walmart-retail-location-walmart-boosting-its-207378496.html)
+![Sample Image]<a href="https://www.freeiconspng.com/img/27981" title="Image from freeiconspng.com"><img src="https://www.freeiconspng.com/uploads/walmart-logo-png-18.png" width="350" alt="Walmart Logo Pic PNG" /></a>
 
 
 # Walmart-Sales-Data-Analysis
