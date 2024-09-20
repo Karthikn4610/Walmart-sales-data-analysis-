@@ -97,8 +97,8 @@ SELECT payment, COUNT(payment) AS common_payment_method
 FROM sales GROUP BY payment ORDER BY common_payment_method DESC LIMIT 1;
 
 -- 3.What is the most selling product line?
-SELECT product_line, count(product_Line) AS most_selling_product
-FROM sales GROUP BY product_line ORDER BY most_selling_product DESC LIMIT 1;
+SELECT sum(quantity) AS qty,product_line
+FROM sales GROUP BY product_line ORDER BY qty DESC;
 
 -- 4.What is the total revenue by month?
 SELECT month_name, SUM(total) AS total_revenue
