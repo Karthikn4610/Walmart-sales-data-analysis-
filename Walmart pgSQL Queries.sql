@@ -68,7 +68,7 @@ ALTER TABLE sales ADD COLUMN day_name VARCHAR(10);
 UPDATE sales
 SET day_name = DAYNAME(date);
 
-3.Momth_name
+3.Month_name
 
 SELECT date,
 MONTHNAME(date) AS month_name
