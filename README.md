@@ -1,4 +1,4 @@
-![Sample Image]<a href="https://www.freeiconspng.com/img/27981" title="Image from freeiconspng.com"><img src="https://www.freeiconspng.com/uploads/walmart-logo-png-18.png" width="350" alt="Walmart Logo Pic PNG" /></a>
+<a href="https://www.freeiconspng.com/img/27981" title="Image from freeiconspng.com"><img src="https://www.freeiconspng.com/uploads/walmart-logo-png-18.png" width="350" alt="Walmart Logo Pic PNG" /></a>
 
 
 # Walmart-Sales-Data-Analysis
