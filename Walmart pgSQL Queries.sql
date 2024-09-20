@@ -122,14 +122,13 @@ FROM sales GROUP BY product_line ORDER BY VAT DESC LIMIT 1;
 
 -- 9.Retrieve each product line and add a column product_category, indicating 'Good' or 'Bad,'based on whether its sales are above the average.
 
-ALTER TABLE sales ADD COLUMN product_category VARCHAR(20);
-
-UPDATE sales 
-SET product_category= 
-(CASE 
-	WHEN total >= (SELECT AVG(total) FROM sales) THEN "Good"
-    ELSE "Bad"
-END)FROM sales;
+select product_line,
+ CASE 
+	WHEN AVG(quantity)>6 THEN 'Good'
+    ELSE 'Bad'
+ END as remark 
+FROM sales
+group by product_line;
 
 -- 10.Which branch sold more products than average product sold?
 SELECT branch, SUM(quantity) AS quantity
