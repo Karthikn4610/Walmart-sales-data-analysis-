@@ -117,7 +117,7 @@ SELECT city, SUM(total) AS total_revenue
 FROM sales GROUP BY city ORDER BY total_revenue DESC LIMIT 1;
 
 -- 8.Which product line incurred the highest VAT?
-SELECT product_line, SUM(vat) as VAT 
+SELECT product_line, avg(vat) as VAT 
 FROM sales GROUP BY product_line ORDER BY VAT DESC LIMIT 1;
 
 -- 9.Retrieve each product line and add a column product_category, indicating 'Good' or 'Bad,'based on whether its sales are above the average.
