@@ -166,18 +166,18 @@ FROM sales GROUP BY customer_type ORDER BY total_VAT DESC LIMIT 1;
 Customer Analysis
 
 -- 1.How many unique customer types does the data have?
-SELECT COUNT(DISTINCT customer_type) FROM sales;
+SELECT DISTINCT customer_type FROM sales;
 
 -- 2.How many unique payment methods does the data have?
-SELECT COUNT(DISTINCT payment) FROM sales;
+SELECT DISTINCT payment FROM sales;
 
 -- 3.Which is the most common customer type?
 SELECT customer_type, COUNT(customer_type) AS common_customer
-FROM sales GROUP BY customer_type ORDER BY common_customer DESC LIMIT 1;
+FROM sales GROUP BY customer_type ORDER BY common_customer DESC;
 
 -- 4.Which customer type buys the most?
 SELECT customer_type, SUM(total) as total_sales
-FROM sales GROUP BY customer_type ORDER BY total_sales LIMIT 1;
+FROM sales GROUP BY customer_type ORDER BY total_sales ;
 
 SELECT customer_type, COUNT(*) AS most_buyer
 FROM sales GROUP BY customer_type ORDER BY most_buyer DESC LIMIT 1;
