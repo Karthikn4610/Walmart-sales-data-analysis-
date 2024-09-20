@@ -1,4 +1,4 @@
-![Sample Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRztL0WzSHxYdzc8FmFZ8pCYA8GxsAThVhioAoQIrfPmnM2527iMnLvRXyd_5VO1xYdRg&usqp=CAU)
+![Sample Image](https://depositphotos.com/editorial/mishawaka-circa-august-2018-walmart-retail-location-walmart-boosting-its-207378496.html)
 
 
 # Walmart-Sales-Data-Analysis
